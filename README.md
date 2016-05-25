@@ -24,3 +24,8 @@
     │   └── build.js 配置文件
     │   └── r.js 打包工具
     ├── www-built 目录www的一份打包压缩后的拷贝
+
+## 参考 ##
+
+- https://github.com/requirejs/r.js/blob/master/build/example.build.js
+- http://www.cnblogs.com/snandy/archive/2012/06/06/2536969.html
