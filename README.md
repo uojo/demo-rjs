@@ -4,7 +4,8 @@
 
 ## 执行 ##
 
-- `node tools/r.js -o tools/build.js` 打包
+- `node tools/r.js -o tools/build_dir.js` www目录下的所有文件打包
+- `node tools/r.js -o tools/build_file.js` 单个文件打包
 
 
 ### 目录结构 ###
@@ -27,5 +28,6 @@
 
 ## 参考 ##
 
+- https://github.com/requirejs/example-multipage
 - https://github.com/requirejs/r.js/blob/master/build/example.build.js
 - http://www.cnblogs.com/snandy/archive/2012/06/06/2536969.html
