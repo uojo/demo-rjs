@@ -1,11 +1,19 @@
 # demo-rjs #
-用途：JS、CSS 打包工具
+用途：requirejs打包的演示，包括js、css文件
 
 
 ## 执行 ##
 
-- `node tools/r.js -o tools/build_dir.js` www目录下的所有文件打包
-- `node tools/r.js -o tools/build_file.js` 单个文件打包
+基于 r.js
+
+- `node tools/r.js -o conf/file.js` 单个文件打包
+- `node tools/r.js -o conf/dir.js` www 目录下的所有文件打包到 www-built
+
+
+基于 Node
+
+- `node build/file.js` 单个文件打包
+- `node build/dir.js` www 目录下的所有文件打包到 www-built
 
 
 ### 目录结构 ###

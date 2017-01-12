@@ -1,7 +1,7 @@
 {
-  "name": "Demo-es6",
+  "name": "Demo-requirejs",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "",
   "description": "",
   "dependencies": {},
   "scripts": {
