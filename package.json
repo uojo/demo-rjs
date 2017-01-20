@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "main": "",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    
+  },
   "scripts": {
-    "start": ""
+    "start": "",
+	"vendor":"node build/zip1 -c vendor"
   },
   "devDependencies": {
-    "requirejs": "2.3.2"
+    "requirejs": "2.3.2",
+	"commander": "2.9.0"
   }
 }

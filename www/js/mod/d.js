@@ -5,7 +5,7 @@ define(function(require, exports, module) {
 	// exports = {"hello":10};
 	// console.log(arguments);
 
-  console.log("d模块");
+	console.log("d模块");
 	// require("././req_app2/js/e");
 
 });
